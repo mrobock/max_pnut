@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title>Car Simulator!</title>
+<script type="text/javascript" src="index.js"></script>
+</head>
+
+
+<!-- create 3 text boxes to enter model make and year of a vehicle
+
+create a button to enter the information
+
+create a paragraph which will return the entered car info
+
+create a paragraph to show the speed of the car
+
+create an accelerate once button
+
+create a brake once button -->
+
+
+
+<body>
+  <h1>Car Simulator Game</h1>
+<p>Please enter your make, model, and year</p>
+<input type="text" placeholder="Make" id="make" />
+<input type="text" placeholder="Model" id="model" />
+<input type="text" placeholder="Year" id="year" />
+<input type="button" value="Enter Info" onclick="callCar()" />
+
+<p id="info">Car info</p>
+</br>
+</br>
+
+<input type="button" value="Accelerate!" onclick="callAccelerate()">
+
+<p id="currentSpeed">Current Speed is 0</p>
+
+<input type="button" value="Brake!" onclick="callBrake()" />
+
+
+
+</body>
+</html>
